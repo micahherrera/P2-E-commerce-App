@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="300dp"
+    android:minHeight="60dp"
+    android:maxHeight="500dp"
+    android:id="@+id/relative">
+<FrameLayout
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="420dp">
+    <ImageView
+        android:id="@+id/closeDialogButton"
+        android:layout_width="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"/>
+    <FrameLayout
+        android:id="@+id/shoppingCartFragView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        >
+    </FrameLayout>
+</FrameLayout>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarBottom"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+
+        android:background="?attr/colorPrimary"
+        android:elevation="0dp">
+        <TextView
+            android:id="@+id/checkoutText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Checkout"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:gravity="center"/>
+    </android.support.v7.widget.Toolbar>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Vin-ill</string>
+    <string-array name="drawerMainArray">
+        <item>Alternative</item>
+        <item>Indie</item>
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>Hip Hop</item>
+        <item>RnB</item>
+        <item>Classical</item>
+        <item>All</item>
+
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+</resources>
